@@ -106,3 +106,11 @@ Best Motifs:
 Heitor Gelain do Nascimento
 Email: heitorgelain@outlook.com
 GitHub: @heitor-sg5
+
+---
+
+## 📚 References
+
+Bioinformatics Algorithms: An Active Learning Approach, Chapter 2
+Phillip Compeau & Pavel Pevzner
+https://bioinformaticsalgorithms.com
