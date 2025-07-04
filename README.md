@@ -45,6 +45,8 @@ Each script reads from the input file and prints:
 - The **score** (lower score = better consensus)
 - The list of **best motifs** found
 
+---
+
 #### Greedy Motif Search
 
   bash
@@ -61,6 +63,8 @@ Each script reads from the input file and prints:
 ```python randomized_motif_search_with_gibbs_sampler.py```
 
 You can change the default parameters (k, t, and N) directly in each script's function call at the bottom.
+
+---
 
 ## 🧠 Algorithm Overviews
 
@@ -79,14 +83,20 @@ You can change the default parameters (k, t, and N) directly in each script's fu
 - Iteratively refines motifs by randomly sampling one at a time based on profiles.
 - Often yields better motifs with enough iterations.
 
+---
+
 ## 👤 Author
 
 Heitor Gelain do Nascimento
 Email: heitorgelain@outlook.com
 GitHub: @heitor-sg5
 
+---
+
 ## 🧪 Example Output
 
 Consensus: GAAAAAAATTTTTTT
+
 Score: 2
+
 Best Motifs: 'CAAAAAAATTTTTTT', 'GAAAAAAATTTTTTT', 'GAAAAAAATTTTTTT', 'CAAAAAAATTTTTTT', 'GAAAAAAATTTTTTT', 'GAAAAAAATTTTTTT'
