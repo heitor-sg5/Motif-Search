@@ -85,14 +85,6 @@ You can change the default parameters (k, t, and N) directly in each script's fu
 
 ---
 
-## 👤 Author
-
-Heitor Gelain do Nascimento
-Email: heitorgelain@outlook.com
-GitHub: @heitor-sg5
-
----
-
 ## 🧪 Example Output
 
 Consensus: GAAAAAAATTTTTTT
@@ -106,3 +98,11 @@ Best Motifs:
 'CAAAAAAATTTTTTT', 
 'GAAAAAAATTTTTTT', 
 'GAAAAAAATTTTTTT'
+
+---
+
+## 👤 Author
+
+Heitor Gelain do Nascimento
+Email: heitorgelain@outlook.com
+GitHub: @heitor-sg5
