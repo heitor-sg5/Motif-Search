@@ -82,7 +82,11 @@ You can change the default parameters (k, t, and N) directly in each script's fu
 ## 👤 Author
 
 Heitor Gelain do Nascimento
-Email: [your_email@example.com]
-GitHub: @your_username
+Email: heitorgelain@outlook.com
+GitHub: @heitor-sg5
 
+## 🧪 Example Output
 
+Consensus: GAAAAAAATTTTTTT
+Score: 2
+Best Motifs: 'CAAAAAAATTTTTTT', 'GAAAAAAATTTTTTT', 'GAAAAAAATTTTTTT', 'CAAAAAAATTTTTTT', 'GAAAAAAATTTTTTT', 'GAAAAAAATTTTTTT'
