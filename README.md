@@ -64,7 +64,7 @@ Each script reads from the input file and prints:
   bash
 ```python randomized_motif_search_with_gibbs_sampler.py```
 
-You can change the default parameters (k-mer length k, list length t, and runs N) directly in each script's function call at the bottom.
+You can change the default parameters k (k-mer length), t (list size), and N (runs) directly in each script's function call at the bottom.
 
 ---
 
