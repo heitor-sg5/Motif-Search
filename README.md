@@ -12,7 +12,9 @@ These algorithms aim to identify shared motifs (subsequences) in a given set of 
 
 ## 🧬 What is a Motif?
 
-In bioinformatics, a **motif** is a short, recurring sequence pattern that is presumed to have a biological function. Motif-finding is crucial in identifying regulatory elements such as promoters or enhancers in DNA.
+In bioinformatics, a motif is a short, recurring sequence pattern with a likely biological function, such as DNA regulatory elements like promoters or enhancers.
+
+Because motifs can vary slightly and are hidden within noisy data, specialized algorithms are used to detect them across multiple sequences, helping reveal important signals in the genome.
 
 ---
 
@@ -62,7 +64,7 @@ Each script reads from the input file and prints:
   bash
 ```python randomized_motif_search_with_gibbs_sampler.py```
 
-You can change the default parameters (k, t, and N) directly in each script's function call at the bottom.
+You can change the default parameters (k-mer length k, list length t, and runs N) directly in each script's function call at the bottom.
 
 ---
 
