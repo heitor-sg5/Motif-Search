@@ -74,16 +74,19 @@ You can change the default parameters k (k-mer length), t (list size), and N (ru
 
 - Iteratively builds a motif set by choosing the most probable k-mer using a profile.
 - Fast and deterministic, but may get stuck in local optima.
+- Time complexity: O(t * n^2 * k)
 
 ### Randomized Motif Search
 
 - Starts with random k-mers, updates motifs using profiles until convergence.
 - Repeated multiple times to improve chances of a better result.
+- Time complexity: O(N * I * t * n * k)
 
 ### Gibbs Sampling
 
 - Iteratively refines motifs by randomly sampling one at a time based on profiles.
 - Often yields better motifs with enough iterations.
+- Time complexity: O(N * k * (n + t))
 
 ---
 
